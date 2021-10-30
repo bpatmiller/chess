@@ -4,7 +4,6 @@ import { MyButton, ReadoutDiv, ReadoutPanel } from "./Styles";
 
 const dim = 8;
 const defaultFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
-
 const loadFEN = (FEN: string) => {
   let squares = Array(dim ** 2).fill("-");
   let index = 0;
